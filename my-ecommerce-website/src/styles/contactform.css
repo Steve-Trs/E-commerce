@@ -1,0 +1,40 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.contact-form input,
+textarea {
+  width: 250px;
+}
+input,
+textarea {
+  padding: 3px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px var(--accent-color);
+}
+
+textarea {
+  height: 80px;
+}

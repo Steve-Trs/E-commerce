@@ -1,0 +1,20 @@
+footer {
+  height: 150px;
+  color: var(--accent-color);
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.legal a {
+  color: var(--accent-color);
+}
+.legal a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 850px) {
+  footer {
+    flex-direction: column;
+  }
+}

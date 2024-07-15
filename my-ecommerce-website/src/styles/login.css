@@ -1,0 +1,25 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 300px);
+  width: 100%;
+}
+.login-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.login-container form {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: var(--accent-color);
+}
+.login-container form button {
+  align-self: center;
+}

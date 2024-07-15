@@ -1,0 +1,65 @@
+.title-result {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.results-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  min-height: calc(100vh - 472px);
+  margin-bottom: 50px;
+}
+.prod-link {
+  text-decoration: none;
+  color: black;
+}
+
+.product-image-search {
+  width: 100%;
+  height: 16em;
+  object-fit: cover;
+}
+
+.card-search {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: arial;
+  width: calc(33% - 15px);
+}
+
+.price-search {
+  color: var(--primary-color);
+  font-size: 22px;
+}
+
+.card-search button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: var(--accent-color);
+  background-color: var(--primary-color);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card-search button:hover {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+  cursor: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .card-search {
+    width: calc(50% - 15px);
+  }
+}
+@media screen and (max-width: 800px) {
+  .card-search {
+    width: 100%;
+  }
+}

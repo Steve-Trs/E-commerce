@@ -1,0 +1,38 @@
+.product-page {
+  width: 100%;
+  min-height: calc(100vh - 340px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0;
+}
+
+.product-container {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 380px;
+  margin: auto 1rem;
+  text-align: center;
+  font-family: arial;
+}
+
+.purchase-options {
+  max-width: 380px;
+}
+
+.buy-now {
+  margin-top: 10px;
+}
+.quantity {
+  width: 30px;
+}
+@media (max-width: 768px) {
+  .product-page {
+    flex-direction: column;
+  }
+  .buy-now {
+    margin-bottom: 30px;
+  }
+}

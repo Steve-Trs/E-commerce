@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #333;
+  --secondary-color: #666;
+  --accent-color: #cccccc;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
